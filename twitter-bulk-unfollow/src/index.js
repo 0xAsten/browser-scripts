@@ -5,9 +5,9 @@
 // @description  Automatically unfollow users on Twitter, supports English and Chinese UI.
 // @author       https://x.com/0xasten
 // @match        https://x.com/*/following
-// @icon         https://raw.githubusercontent.com/0xAsten/twitter-bulk-unfollow/refs/heads/main/assets/favicon.ico
-// @homepage     https://github.com/0xAsten/twitter-bulk-unfollow
-// @supportURL   https://github.com/0xAsten/twitter-bulk-unfollow/issues
+// @icon         https://raw.githubusercontent.com/0xAsten/browser-scripts/refs/heads/main/twitter-bulk-unfollow/assets/favicon.ico
+// @homepage     https://github.com/0xAsten/browser-scripts
+// @supportURL   https://github.com/0xAsten/browser-scripts/issues
 // @grant        none
 // @esversion    8
 // ==/UserScript==
@@ -34,7 +34,7 @@
       if (buttons.length === 0) {
         clearInterval(interval)
         alert(
-          `Complete, removed ${count} followings\n\nFor bugs or feature requests: https://github.com/0xAsten/twitter-bulk-unfollow`,
+          `Complete, removed ${count} followings\n\nFor bugs or feature requests: https://github.com/0xAsten/browser-scripts`,
         )
         return
       }
