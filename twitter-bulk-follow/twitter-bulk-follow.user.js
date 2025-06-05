@@ -183,7 +183,7 @@
               ) {
                 clearInterval(checkClosed)
                 localStorage.removeItem('twitter_bulk_follow_active')
-                setTimeout(resolve, 1000)
+                setTimeout(resolve, 3000)
               }
             }, 1000)
           })
